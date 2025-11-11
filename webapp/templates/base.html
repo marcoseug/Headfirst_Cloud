@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ the_title }}</title>  <!-- diretiva JINJA que um conteudo sera enviado nesta variavel -->
+        <link rel="stylesheet" href="static/hf.css" /> <!-- arquivo com todo o estilo das paginas -->
+    </head>
+    <body>
+        {% block body %} <!-- informa JINJA inicio/fim de um bloco que sera substitudo -->
+
+        {% endblock %}
+    </body>
+</html>

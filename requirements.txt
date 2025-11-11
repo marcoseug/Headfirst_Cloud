@@ -1,0 +1,6 @@
+
+#se nao especifica a versao ira instalar sempre a ultima
+Flask
+Jinja2
+Werkzeug
+Debug
